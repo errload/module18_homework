@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #ececec;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.btn {
+    outline: none;
+    background: #112966;
+    border: 0;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 15px 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+}
+
+.btn:hover { background: #0d2050; }
+
+.btn__text { margin-right: 10px; }
+
+.btn__icon__1, .btn__icon__2 {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+.btn__icon__2 { display: none; }
+.btn--magic .btn__icon__1 { display: none; }
+.btn--magic .btn__icon__2 { display: block; }
+
+@keyframes magic {
+    from { transform: rotate(0); }
+    to { transform: rotate(360deg); }
+}
