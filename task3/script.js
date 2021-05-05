@@ -21,7 +21,7 @@ function getSizeWindow() {
 
 // функция ошибки определения геопозиции
 function geoError() {
-    geoPosition.textContent = 'Информация о местоположении недоступна.';
+    geoPosition.textContent = 'Информация о местоположении недоступна';
 }
 
 // функция успешного определения геопозиции
